@@ -129,3 +129,29 @@ for (PortalMenu child : children) {
 Visual Studio는 IDE(통합 개발 환경)이며 Visual Studio Code는 Sublime Text 및 Atom과 같은 리치 텍스트 편집기로
 도구 간의 차이점은 IDE와 텍스트 편집기 그 이상이라고 한다.
 IDE는 코드 작성, 편집, 디버깅 및 실행을 위한 강력한 도구로 텍스트 편집기에서는 코드를 작성하고 편집할 수만 있다. 코드를 실행하거나 자동으로 실행되도록 플러그인을 다운로드하려면 텍스트 편집기에서 나가야 할 수도 있다고 함.. 깊게 공부 안하고 돌리기만 해서... 몰랐다.
+</details>
+
+# 관련 정리된 링크들
+- [ [IT 개발자와 일할 때 필요한 모든 개발지식] A to Z 자료 모음집 By 그랩](https://www.grabbing.me/IT-A-to-Z-By-1e1fbc981b7c4c03ac44943085ac8304)
+: 웬만한 CS 지식 집합체 IT 분야 종사자라면 봐야함
+
+- [[IT 개발자와 일할 때 필요한 모든 개발지식] A to Z 자료 모음집 By 그랩의 어려운 IT 용어 정리](https://www.grabbing.me/IT-e042e5f23b2147878ead089c97ef3c77#35a8ac77dfa84380bdd9d1c4e29e84d3)
+: 위와 똑같은 곳으로 어려운 IT 용어 모음
+
+- [신입 개발자 전공 지식 & 기술 면접 백과사전](https://gyoogle.dev/blog/)
+: 기술 면접에 대한 정리가 체계적으로 잘되어 있는 편
+
+- [신입 개발자 전공 지식 & 기술 면접 백과사전](https://github.com/WooVictory/Ready-For-Tech-Interview)
+: 위의 웹사이트 GITHUB 버전
+
+- [다른 사람이 면접시 물어본 것을 VELOG에 정리한 것](https://velog.io/@matisse/%EA%B8%B0%EC%88%A0%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8-%EC%A0%95%EB%A6%AC-CS)
+: 3년전 글이긴 한데 정리가 잘되있어서 나도 나중에 면접시 저런식으로 정리해야 겠다를 생각함
+
+- [READY FOR TECH INTERVIEW](https://github.com/WooVictory/Ready-For-Tech-Interview)
+: 이 곳은 신입 혹은 주니어 개발자에게 필요한 지식을 정리하는 GITHUB
+
+- [Technical Interview Guidelines for Beginners](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)
+: 시작하는 주니어 개발자들을 위한 기초 지식 정리한 GITHUB
+
+- [Backend-Interview-Question](https://github.com/ksundong/backend-interview-question)
+: 백엔드 개발자 입사시 질문, 예상질문 GITHUB
