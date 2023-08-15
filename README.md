@@ -32,8 +32,15 @@
     
 </details>
 
+# 공부방법
+
+<details><summary style="color:skyblue"><h3> 컴퓨팅적 사고 방식</h3></summary> 
+	
+[🔭 자세한 설명 :테오님 블로그](https://velog.io/@teo/computational-thinking)
+</details>
+
 # 그 외
-### 🗒️ 스택 트레이스 + nullpointException이 일어나는 이유
+###  스택 트레이스 + nullpointException이 일어나는 이유
 <details><summary style="color:skyblue">[🔭 자세한 설명]</summary>    
 
 > 일단 출처
