@@ -43,6 +43,30 @@
 
 </details>
 
+
+<details><summary style="color:skyblue">Array(배열)</summary>
+
+[🔭 자세한 설명](https://velog.io/@prettylee620/%EB%B0%B0%EC%97%B4array) </br>
+🪄 간단한 설명
+- 배열은 위치만 알면, 읽을 때 데이터에 빠르게 접근 가능
+- 많은 자료를 읽어내려고 할 때 배열이 좋다. 배열의 요소의 개수 상관없이 Random하게 읽어내니까
+- Reading은 인덱스를 이용해서 O(1)이지만 Searching, Insert, Delete는 O(n)
+- 배열은 접근 연산을 제외하면, 탐색, 삽입, 삭제 연산에 대해 비교적 효율적이지 않으므로, 알고리즘 설계 시 이러한 연산의 효율성 고려할 것
+
+</details>
+
+<details><summary style="color:skyblue">Stack과 Que</summary>
+
+[🔭 자세한 설명](https://velog.io/@prettylee620/%EC%8A%A4%ED%83%9D%EA%B3%BC-%ED%81%90) </br>
+🪄 간단한 설명
+- 스택과 큐는 우리의 상상에만 존재, 실제로 프로그래밍 언어들에서는 존재하지 않음
+- 스택과 큐는 일종의 규칙으로 결국 배열 위에 어떤 규칙을 설정한 모습
+- 스택은 LIFO(Last in First Out)으로 팬케이크를 먹는다고 할 때 가장 늦게 올린 것을 먼저 먹는 형식과 비슷
+- 큐는 FIFO(First in First Out)으로 버스 타기 위해 줄 설 때 맨 앞 사람이 가장 먼저 타는 것과 비슷
+
+</details>
+
+
 # 공부방법
 
 <details><summary style="color:skyblue"> 컴퓨팅적 사고 방식</summary> 
