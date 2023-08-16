@@ -68,6 +68,8 @@
 
 <details><summary style="color:skyblue">Array vs ArrayList vs LinkedList 차이</summary>
 
+[🔭 자세한 설명](https://velog.io/@prettylee620/Array-vs-ArrayList-vs-LinkedList-차이)
+
 🪄 간단한 설명
 - **Array**는 index로 빠르게 값을 찾는 것이 가능함 </br>
 - **ArrayList**는 데이터를 찾는데 빠르지만, 삽입 및 삭제가 느림  </br>
