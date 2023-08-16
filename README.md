@@ -66,6 +66,21 @@
 
 </details>
 
+<details><summary style="color:skyblue">Array vs ArrayList vs LinkedList 차이</summary>
+
+🪄 간단한 설명
+- **Array**는 index로 빠르게 값을 찾는 것이 가능함 </br>
+- **ArrayList**는 데이터를 찾는데 빠르지만, 삽입 및 삭제가 느림  </br>
+- **LinkedList**는 데이터의 삽입 및 삭제가 빠름
+- array와 ArrayList의 차이는 array의 경우 우리가 선언 할 때 크기를 지정하고 크기를 확장 시 제한 적이다. 하지만 ArrayList는 크기 유동적이라서 add를 하면 공간 자체 유동적이다.
+
+![image](https://github.com/GoldenPearls/study_cs/assets/97003348/57cd8664-b2e1-4c4c-a0f6-301948efa256)
+![image](https://github.com/GoldenPearls/study_cs/assets/97003348/6bbf6507-9c95-4c4a-824a-860b29b0ac05)
+
+
+</details>
+
+
 
 # 공부방법
 
