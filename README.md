@@ -213,6 +213,50 @@ IoC는 코드의 재사용성, 유지보수성, 테스트 용이성 등을 향�
 대표적으로 스프링 프레임워크에서는 IoC와 DI를 기반으로 개발자가 애플리케이션의 핵심 비즈니스 로직을 구현하고, 프레임워크가 객체의 생성과 의존성 관리를 담당하도록 하는 것이 핵심 원칙 중 하나이다.
 </details>
 
+<details><summary style="color:skyblue"> Bean</summary>
+
+<details><summary style="color:skyblue"> Bean이란</summary>
+
+> 💡 스프링 프레임워크에서 빈은 객체의 인스턴스를 의미한다. 스프링은 객체 지향 프로그래밍의 기본 원칙에 따라 작성된 클래스의 인스턴스를 생성하고 관리하는데 이러한 **인스턴스를 빈**이라고 하며, Bean은 스프링에서 사용하는 POJO 기반 객체다. 
+> 스프링 컨테이너는 애플리케이션에서 필요한 빈 객체를 생성하고, 관리하며, 필요한 시점 제공해준다. 빈은 스프링의 IoC 컨테이너의 핵심 개념 중 하나이며, 컨테이너에 의해 생성되고 관리되기 때문에 객체의 생명주기와 의존성 주입등을 효율적으로 관리할 수 있다. 
+>
+> 스프링에서 빈은 주로 `XML 설정 파일이나 Java Config` 등을 통해 정의하고, 애플리케이션에서 필요한 위치에서 이 빈을 사용하게 된다. 빈은 대부분의 경우 싱글톤으로 생성되어 애플리케이션 전반에 걸쳐 하나의 인스턴스만 유지한다. 그 이유는 **싱글톤 패턴처럼 특정 타입의 Bean을 딱 하나만 만들고 모두 공유해서 사용하기 위함이다**
+           
+</details>
+
+<details><summary style="color:skyblue">Bean Scope 종류</summary>
+
+  > Bean Scope란? Bean의 사용범위를 말한다. 그리고 request, session, global session은 MVC 웹 어플리케이션에만 사용함
+  
+1. sigleton
+: 해당 Bean에 대해 IoC컨테이너에서 `단 하나의 객체`로만 존재한다. 가장 많이 사용
+
+2. prototype
+:  해당 Bean에 대해 `다수의 객체`가 존재할 수 있다.
+
+3. request
+: 해당 Bean에 대해 `하나의 HTTP Request의 라이프사이클`에서 단 하나의 객체로만 존재한다.
+
+4. session
+: 해당 Bean에 대해 하나의 HTTP Session의 라이플사이클에서 단 하나의 객체로만 존재
+
+5. global session
+: 해당 Bean에 대해 하나의 Golbal HTTP Session의 라이프사이클에서 단 하나의 객체로만 존재한다.
+
+> Scope들은 Bean으로 등록하는 클래스에 어노테이션으로 설정해줄 수 있다.
+
+```java
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Service;
+ 
+@Scope("prototype")
+@Component
+public class UserController {
+}
+```
+</details>
+</details>
+
 # 운영체제
 <details><summary style="color:skyblue"> 프로세스, 스레드, 멀티태스킹, 멀티스레딩, 멀티프로세싱, 멀티프로그래밍</summary>
 
