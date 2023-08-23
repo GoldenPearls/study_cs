@@ -477,3 +477,11 @@ IDE는 코드 작성, 편집, 디버깅 및 실행을 위한 강력한 도구로
 
 - [Backend-Interview-Question](https://github.com/ksundong/backend-interview-question)
 : 백엔드 개발자 입사시 질문, 예상질문 GITHUB
+
+- [라인 들어가신 분의 기술면접 공부법](https://velog.io/@rmswjdtn/%EC%B7%A8%EC%97%85-%EB%B0%B1%EC%97%94%EB%93%9C-%EC%8B%A0%EC%9E%85-14%EB%B2%88%EC%9D%98-%EB%A9%B4%EC%A0%91-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%B7%A8%EB%BD%80-4-%EA%B8%B0%EC%88%A0%EB%A9%B4%EC%A0%91)
+
+- [널널한 개발자](https://www.youtube.com/watch?v=k1gyh9BlOT8&list=PLXvgR_grOs1BFH-TuqFsfHqbh-gpMbFoy)
+: 네트워크 기초 개념 
+
+- [김덕수님](https://www.youtube.com/watch?v=EdTtGv9w2sA&list=PLBrGAFAIyf5rby7QylRc6JxU5lzQ9c4tN)
+  : 운영체제 기초 개념 유투브
