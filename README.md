@@ -82,7 +82,7 @@
 
 </details>
 
-<details><summary style="color:skyblue">동적계획법과 분할정</summary>
+<details><summary style="color:skyblue">동적계획법과 분할정복</summary>
 
 [🔭 자세한 설명](https://velog.io/@prettylee620/%EB%8F%99%EC%A0%81-%EA%B3%84%ED%9A%8D%EB%B2%95%EA%B3%BC-%EB%B6%84%ED%95%A0%EC%A0%95%EB%B3%B5-ih96sv90) </br>
 🪄 간단한 설명
