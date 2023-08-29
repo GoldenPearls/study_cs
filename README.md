@@ -460,6 +460,16 @@ public class UserController {
 [🔭 자세한 설명 :테오님 블로그](https://velog.io/@teo/computational-thinking)
 </details>
 
+# 강연
+<details><summary style="color:skyblue"> 센스있는 BE 개발자 되기 </summary> 
+	
+[🔭 자세한 강연 후기](https://velog.io/@prettylee620/%EC%A0%90%ED%95%8F-%EA%B0%95%EC%97%B0-%EC%84%BC%EC%8A%A4%EC%9E%88%EB%8A%94-BE-%EB%90%98%EA%B8%B0)
+
+
+</details>
+
+
+
 # 그 외
 ###  스택 트레이스 + nullpointException이 일어나는 이유
 <details><summary style="color:skyblue">[🔭 자세한 설명]</summary>    
