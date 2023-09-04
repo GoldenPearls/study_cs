@@ -460,6 +460,41 @@ public class UserController {
 >
 </details>
 
+<details><summary style="color:skyblue"> 인터럽트, 시스템 콜, 유저모드, 커널모드 들의 프로그래밍과의 관계</summary>
+
+[🔭 자세한 설명](https://velog.io/@prettylee620/%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%BD%9C-%EC%9C%A0%EC%A0%80%EB%AA%A8%EB%93%9C-%EC%BB%A4%EB%84%90%EB%AA%A8%EB%93%9C-%EB%93%A4%EC%9D%98-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EA%B3%BC%EC%9D%98-%EA%B4%80%EA%B3%84)
+
+🪄 간단한 설명
+
+**User mode와 Kernel mode**
+1. user mode
+우리가 개발하는 프로그램은 일반적으로 유저모드에서 실행
+2. user mode ⇒ Kernel mode
+프로그램 실행 중에 인터럽트(interrupt)가 발생하거나 시스템 콜(system call)을 호출하게 되면 커널 모드로 전환
+3. Kernel mode
+방금 전까지 실행 중이던 프로그램의 현재 CPU 상태를 저장함
+나중에 마저 실행하기 위해
+커널이 인터럽트나 시스템 콜을 직접 처리한다. 즉, CPU에서 커널 코드가 실행됨
+처리가 완료되면 중단됐던 프로그램의 직전의 CPU 상태를 복원
+4. Kernel mode ⇒ user mode
+다시 통제권을 프로그램에게 반환
+5/ user mode
+프로그램이 이어서 실행된다.
+6. 커널(kernel)
+운영체제의 핵심
+시스템의 전반을 관리/감독하는 역할
+하드웨어와 관련된 작업을 직접 수행
+
+**Interrupt**
+시스템에서 발생한 다양한 종류의 이벤트 혹은 그런 이벤트를 알리는 매커니즘이자 어떤 신호가 들어왔을 때 `CPU를 잠깐 정지`시키는 것'
+
+**시스템 콜의 개념**
+프로그램이 OS 커널이 제공하는 서비스를 이용하고 싶을 때 시스템 콜을 통해 실행
+시스템 콜이 발생하면 해당 커널 코드가 커널 모드에서 실행
+
+</details>
+
+
 # 서버관련
 <details><summary style="color:skyblue"> 서버, 웹서버, WAS </summary>
 
