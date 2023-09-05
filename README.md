@@ -594,10 +594,17 @@ public class UserController {
 [🔭 자세한 설명 :테오님 블로그](https://velog.io/@teo/computational-thinking)
 </details>
 
-# 강연
+# 강연 및 멘토링
 <details><summary style="color:skyblue"> 센스있는 BE 개발자 되기 </summary> 
 	
 [🔭 자세한 강연 후기](https://velog.io/@prettylee620/%EC%A0%90%ED%95%8F-%EA%B0%95%EC%97%B0-%EC%84%BC%EC%8A%A4%EC%9E%88%EB%8A%94-BE-%EB%90%98%EA%B8%B0)
+
+
+</details>
+
+<details><summary style="color:skyblue"> 인프런 멘토 우연님 후기이자 방향성 - 초보개발자의 고민과 방안 </summary> 
+	
+[🔭 자세한 멘토 후기](https://velog.io/@prettylee620/%EC%9D%B8%ED%94%84%EB%9F%B0-%EB%A9%98%ED%86%A0-%EC%9A%B0%EC%97%B0%EB%8B%98-%ED%9B%84%EA%B8%B0%EC%9D%B4%EC%9E%90-%EB%B0%A9%ED%96%A5%EC%84%B1-%EC%B4%88%EB%B3%B4%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EA%B3%A0%EB%AF%BC%EB%93%A4)
 
 
 </details>
