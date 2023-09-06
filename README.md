@@ -494,6 +494,31 @@ public class UserController {
 
 </details>
 
+<details><summary style="color:skyblue"> 메모리와 메모리 관리</summary>
+
+[🔭 자세한 설명](https://velog.io/@prettylee620/%EB%A9%94%EB%AA%A8%EB%A6%AC%EC%99%80-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B4%80%EB%A6%AC)
+
+🪄 간단한 설명
+
+1. 메모리
+- CPU는 그저 메모리에 올라와 있는 프로그램의 명령어들을 실행
+
+2. 메모리 계층
+- 레지스터 : CPU 안에 있는 작은 메모리
+- 캐시 : L1, L2 캐시를 지칭한다.
+- 주기억장치 : (= 메모리, RAM)
+- 저장장치(HDD SDD) : (= 보조기억장치)
+
+3. 캐시
+캐시는 데이터를 미리 복사해 놓는 임시 저장소이자 빠른 장치와 느린 장치에서 속도 차이에 따른 병목 현상을 줄이기 위한 메모리
+
+4. 기억장치 관리
+- 기억장치의 관리 전략의 개요
+- 보조기억장치의 프로그램이나 데이터를 주기억장치에 적재시키는 시기(When), 적재 위치(Where) 등을 지정하여 한정된 주기억장치의 공간을 효율적으로 사용하기 위함
+#반입(Fetch), 배치(Placement), 할당(Allocation), 교체(Replacemnet)
+반배할교
+</details>
+
 
 # 서버관련
 <details><summary style="color:skyblue"> 서버, 웹서버, WAS </summary>
