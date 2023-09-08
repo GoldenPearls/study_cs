@@ -135,6 +135,31 @@
 
 </details>
 
+<details><summary style="color:skyblue">우선순위 큐와 힙의 차이
+</summary>
+
+[🔭 자세한 설명](https://velog.io/@prettylee620/%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%ED%81%90%EC%99%80-%ED%9E%99%EC%9D%98-%EC%B0%A8%EC%9D%B4) </br>
+🪄 간단한 설명
+1. 우선순위 큐
+- 큐와 유사하지만 우선순위가 높은 아이템이 먼저 처리됨
+
+2. 힙
+- 주로 이진 트리 기반으로 구현이 됨
+- 트리(tree) : 부모 - 자녀처럼 계층적인 형태를 가지는 구조
+- 이진 트리 : 자녀가 최대 두 개인 트리
+
+3. priority queue와 Heap의 관계
+- 관계
+> 힙(Heap)의 키(key)를 우선순위(priority)로 사용한다면, 힙은 우선순위 큐(priority queue)의 구현체가 된다.
+Priority queue = ADT(구현을 설정하지 않고 개념적인 것만 설명)
+
+- 추상 자료형(abstract data type)
+**추상 자료형**은 구현 방법을 명시하고 있지 않다는 점에서 자료 구조와 다르다. 비슷한 개념의 추상적 자료 구조는 각 연산의 시간 복잡도를 명기하고 있지만 추상적 자료형에서는 이것조차 명기하지 않는다.
+추상 자료형은 인터페이스와 구현을 분리하여 추상화 계층을 둔 것이다. 예를 들어 전기 밥솥을 추상 자료형에 비유한다면 그 속에 들어가는 밥은 자료가 되고, 밥솥에 있는 취사, 예약취사 버튼들과 남은 시간을 표시하는 디스플레이에 어떤 내용들이 표시되어야 하는지를 명기한 것이다.
+Heap = data structure(구현까지 있음)
+우선순위 큐를 구현하기 위해 다양한 것들이 있겠지만, 힙을 대체로 많이 사용해서 동일시 하는 사람들이 있다.
+</details>
+
 # spring
 <details><summary style="color:skyblue">AOP</summary>
 <details><summary style="color:skyblue">AOP란 무엇인가?</summary>
