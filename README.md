@@ -348,6 +348,9 @@ public class UserController {
 - 그렇다면 반대로 Call by Reference란 뭘까?
 - `Call by Reference`란? 함수에 인자를 전달할 때 인자의 실제 메모리 주소를 전달하는 방식이며, 인자의 실제 메모리에 접근하고 수정할 수 있다. Call by Reference의 특징이란 stack영역에 생성된다. 또한 참조형은 heap 영역에 저장한다.
 
+</details>
+
+
 <details><summary style="color:skyblue"> Reflection </summary>
 
 [🔭 자세한 설명](https://velog.io/@prettylee620/Reflection)
@@ -357,6 +360,9 @@ public class UserController {
 - 자바에서 이미 로딩이 완료된 클래스에서 또는 다른 클래스를 동적으로 로딩하여 구체적인 타입을 알지 못하더라도 생성자, 멤버 필드, 그리고 멤버 메소드를 사용할 수 있는 기법이다.
 - `객체를 통해서` 클래스의 패키지 정보, 접근 지정자, 부모 클래스, 어노테이션 등을 얻을 수 있다.
 - 즉, 핵심은 컴파일 타임이 아니라 런타임에 동적으로 컴파일 타임에는 알 수 없는 클래스를 **특정 클래스의 정보를 객체화**하여 **분석 및 추출해낼 수 있는 동적 프로그래밍 기법**이다.
+
+</details>
+
 
 # 운영체제
 <details><summary style="color:skyblue"> 프로세스, 스레드, 멀티태스킹, 멀티스레딩, 멀티프로세싱, 멀티프로그래밍</summary>
