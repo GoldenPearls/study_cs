@@ -335,6 +335,19 @@ public class UserController {
 </details>
 </details>
 
+# 프로그래밍 언어
+## JAVA
+<details><summary style="color:skyblue"> Call by value vs Call by Reference과 기본형과 참조형</summary>
+
+[🔭 자세한 설명](https://velog.io/@prettylee620/Call-by-value-vs-Call-by-Reference)
+
+🪄 간단한 설명
+- **Call by Value**란 인자의 실제 값을 복사하여 함수의 매개변수에 전달하는 방식으로 실제로 메모리 주소 자체 전달이 아니며, 대표적으로 자바는 Call by Value만 지원한다.
+- **기본형**의 경우 실제 데이터 값이 복사 되며, 값의 복사 => 별도의 메모리 공간 => 원본 값의 보존 순서로 진행된다.
+- **참조타입**의 경우 객체의 주소값이 복사되는데 동작방식은 참조의 복사 => 동일한 객체에 대한 참조 => 객체 변경의 영향 순서로 진행된다.
+- 그렇다면 반대로 Call by Reference란 뭘까?
+- `Call by Reference`란? 함수에 인자를 전달할 때 인자의 실제 메모리 주소를 전달하는 방식이며, 인자의 실제 메모리에 접근하고 수정할 수 있다. Call by Reference의 특징이란 stack영역에 생성된다. 또한 참조형은 heap 영역에 저장한다.
+
 # 운영체제
 <details><summary style="color:skyblue"> 프로세스, 스레드, 멀티태스킹, 멀티스레딩, 멀티프로세싱, 멀티프로그래밍</summary>
 
