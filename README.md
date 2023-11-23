@@ -378,6 +378,45 @@ public class UserController {
 - 구글 인앱 API를 사용하여 개발한다면 우리의 앱과 구글 인앱 결제 사이를 이어주는 인터페이스가 API가 되는 것이고 이 중간에 있는 것들은 뭐든지 인터페이스
 </details>
 
+<details><summary style="color:skyblue"> Wrapper Class와 오버라이딩 vs 오버로딩 + final 키워드 </summary>
+
+[🔭 자세한 설명](https://velog.io/@prettylee620/Wrapper-Class%EC%99%80-%EC%98%A4%EB%B2%84%EB%9D%BC%EC%9D%B4%EB%94%A9-vs-%EC%98%A4%EB%B2%84%EB%A1%9C%EB%94%A9-final-%ED%82%A4%EC%9B%8C%EB%93%9C-ty2fqdfn)
+
+🪄 간단한 설명
+**Wrapper Class란?**
+- 자바에서 Wrapper Class는 기본 데이터 타입을 객체로 다루기 위해 사용되는 클래스들을 의미
+- 사용 용도는 보통 객체로 저장해야 할 때, 매개변수로 객체가 요구될 경우, 객체 간의 비교가 필요한 경우 등이 있다.
+
+**오버라이딩과 오버로딩**
+- 오버라이딩 : 자식 클래스가 부모 클래스로부터 상속받은 메서드를 재정의하는 것, 상속받은 메서드와 같은 이름, 같은 반환 타입, 같은 매개변수를 가져야 한다. `다형성` 실현하는 데 필수적
+  ```java
+class Animal {
+    public void sound() {
+        System.out.println("동물 소리");
+    }
+}
+
+class Dog extends Animal {
+    @Override
+    public void sound() {
+        System.out.println("멍멍");
+    }
+}
+```
+- 오버로딩 : 같은 이름의 메서드를 여러개 가질 수 있게 하되, 매개변수의 타입이나 개수를 다르게 하는 것으로 코드의 가독성과 재사용성을 높이는 데 도움이 된다.
+```java
+class Calculator {
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public double add(double a, double b) {
+        return a + b;
+    }
+}
+```
+
+</details>
 # 운영체제
 <details><summary style="color:skyblue"> 프로세스, 스레드, 멀티태스킹, 멀티스레딩, 멀티프로세싱, 멀티프로그래밍</summary>
 
