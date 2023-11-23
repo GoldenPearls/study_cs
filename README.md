@@ -417,6 +417,7 @@ class Calculator {
 ```
 
 </details>
+
 # 운영체제
 <details><summary style="color:skyblue"> 프로세스, 스레드, 멀티태스킹, 멀티스레딩, 멀티프로세싱, 멀티프로그래밍</summary>
 
