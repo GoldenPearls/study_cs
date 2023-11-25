@@ -418,6 +418,35 @@ class Calculator {
 
 </details>
 
+<details><summary style="color:skyblue"> non-static 멤버와 static 멤버</summary>
+
+[🔭 자세한 설명](https://velog.io/@prettylee620/non-static-%EB%A9%A4%EB%B2%84%EC%99%80-static-%EB%A9%A4%EB%B2%84)
+
+🪄 간단한 설명
+1. non-static 멤버 = instance 멤버
+- 객체 별로 다른 상태를 유지할 수 있으며, 객체 생성시 마다 메모리를 할당하고 non-static 멤버는 객체의 인스턴스를 통해서만 접근 가능하다.
+- 공유되지 않는다.
+```java
+public class MyClass {
+    // Non-static 필드
+    int instanceField;
+
+    // Non-static 메소드
+    void instanceMethod() {
+        // ...
+    }
+}
+```
+2. static 멤버 = class 멤버
+- 해당 클래스의 모든 인스턴스에 의해 공유되며, 한 인스턴스에서 static 멤버의 값을 변경하면, 그 변경사항이 모든 인스턴스에 영향을 미친다.
+- 프로그램 시작시 한 번만 메모리에 할당되며, 클래스 이름을 통해 접근 가능하다.
+```java
+Dog.bark(); // static 메소드 호출 => 생성하지 않아도 사용 가능
+
+```
+
+</details>
+
 # 운영체제
 <details><summary style="color:skyblue"> 프로세스, 스레드, 멀티태스킹, 멀티스레딩, 멀티프로세싱, 멀티프로그래밍</summary>
 
