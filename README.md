@@ -499,6 +499,39 @@ ex. ‘+’ 연산자의 경우 숫자 클래스에서는 덧셈, 문자 클래�
 - 의존성 역전의 원칙(DIP-Dependency Inversion Principle): 실제 사용관계는 바뀌지 않으며, 추상을 매개로 메세지를 주고받음으로써 관계를 최대한 느슨하게 만드는 원칙
 </details>
 
+<details><summary style="color:skyblue"> String, StringBuilder, StringBuffer</summary>
+
+[🔭 자세한 설명](https://velog.io/@prettylee620/qofg42hq)
+
+🪄 간단한 설명
+**1. String**
+- String은 불변하는 문자열을 나타낸다.
+- String 객체에 저장된 문자열은 생성된 후에 변경할 수 없다.
+- 불변성 때문에 String은 문자열 연산이 많은 경우 **비효율적**일 수 있다.
+- 예를 들어, 반복적인 문자열 연결은 매번 새로운 String 객체를 생성하기 때문에 메모리 사용과 성능에 부담을 줄 수 있다. 즉, 메모리 공간의 낭비가 발생하고 성능이 떨어진다.
+- 불변성은 String을 스레드 안전(thread-safe)하게 만듭니다.
+- 문자열 연산이 적고, 조회가 많은 상황에서 쓰기 좋다.
+
+**2. StringBuilder**
+- StringBuilder는 가변적인 문자열을 나타낸다.
+- 이 클래스를 사용하면 기존의 문자열 내용을 변경하거나 추가할 수 있어, 반복적인 문자열 수정 작업에서 높은 성능을 제공
+- StringBuilder는 스레드 안전하지 않다.
+- 따라서 멀티 스레드 환경에서는 주의해서 사용해야 한다
+- 성능: StringBuilder는 String보다 문자열 연산(추가, 수정, 삭제 등)에 있어 훨씬 효율적
+- StringBuilder는 동기화를 고려하지 않는 상황에서 사용.(Thread를 사용하지 않는 상황.) 문자열 연산이 많은 싱글 쓰레드 환경.
+
+**3. StringBuffer**
+- 가변성 (Mutability): StringBuffer도 StringBuilder와 마찬가지로 가변적인 문자열을 다룹니다. StringBuilder와 비슷한 API를 제공
+- StringBuffer의 주요 차이점은 스레드 안전하게 설계되었다는 것
+- 이는 StringBuffer의 모든 주요 연산이 동기화(synchronized)되어 있다는 의미
+- StringBuffer는 StringBuilder에 비해 느릴 수 있다.
+- 이는 동기화로 인한 오버헤드 때문이다. 따라서 단일 스레드 환경에서는 StringBuilder가 선호
+- StringBuffer는 동기화가 필요한 멀티 쓰레드 환경에서 사용. 문자열 연산이 많은 멀티 쓰레드 환경.
+
+
+</details>
+
+
 
 # 운영체제
 <details><summary style="color:skyblue"> 프로세스, 스레드, 멀티태스킹, 멀티스레딩, 멀티프로세싱, 멀티프로그래밍</summary>
