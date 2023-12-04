@@ -333,6 +333,40 @@ public class UserController {
 }
 ```
 </details>
+
+</details>
+
+<details><summary style="color:skyblue">스프링의 핵심은 무엇인가?</summary>
+
+[🔭 자세한 설명](https://velog.io/@prettylee620/%EC%8A%A4%ED%94%84%EB%A7%81%EC%9D%98-%ED%95%B5%EC%8B%AC%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)
+
+🪄 간단한 설명
+**스프링이란?**
+1. 프레임워크이다.
+2. 오픈소스이다.
+3. 스프링은 IoC 컨테이너를 가진다.(Inversion Of Control)
+
+> 스프링 프레임워크도 객체를 생성하고 관리하고 책임지고 의존성을 관리해주는 컨테이너가 있는데,그것이 바로 `IoC 컨테이너(=스프링 컨테이너)`
+
+인스턴스 생성부터 소멸까지의 인스턴스 생명주기 관리를 개발자가 아닌 컨테이너가 대신 해주기 때문에 **객체 관리 주체가 프레임워크(Container)**가 되기 때문에 개발자는 로직에 집중할 수 있다는 장점이 있다.
+
+4. 스프링은 DI를 지원한다.
+⭐ IoC의 분류 : DL(Dependency Lookup) 과 DI (Dependency Injection)
+- **DL** : 저장소에 저장되어 있는 Bean에 접근하기 위해 컨테이너가 제공하는 API를 이용하여 Bean을 Lockup하는 것
+- **DI** : 각 클래스간의 의존관계를 빈 설정(Bean Definition) 정보를 바탕으로 컨테이너가 자동으로 연결해주는 것
+
+Setter Injection (수정자 주입)
+Constructor Injection (생성자 주입)
+Method Injection (필드 주입)
+
+5.  스프링은 엄청나게 많은 필터를 가지고 있다.
+**필터란?**
+문지기와 같음.. 임무를 준다. 예를 들어 권한이 없다면 못들어 오게 막는 것과 같은 것을 말한다.
+
+A나라의 성을 tomcat이라고 보고 왕의 집을 스프링 컨테이너라고 생각하면 됨
+
+6. 스프링은 엄청나게 많은 어노테이션을 가지고 있다(리플렉션, 컴파일체킹)
+
 </details>
 
 # 프로그래밍 언어
