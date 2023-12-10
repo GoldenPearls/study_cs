@@ -341,6 +341,7 @@ public class UserController {
 [🔭 자세한 설명](https://velog.io/@prettylee620/%EC%8A%A4%ED%94%84%EB%A7%81%EC%9D%98-%ED%95%B5%EC%8B%AC%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)
 
 🪄 간단한 설명
+
 **스프링이란?**
 1. 프레임워크이다.
 2. 오픈소스이다.
@@ -360,6 +361,7 @@ Constructor Injection (생성자 주입)
 Method Injection (필드 주입)
 
 5.  스프링은 엄청나게 많은 필터를 가지고 있다.
+
 **필터란?**
 문지기와 같음.. 임무를 준다. 예를 들어 권한이 없다면 못들어 오게 막는 것과 같은 것을 말한다.
 
@@ -368,6 +370,27 @@ A나라의 성을 tomcat이라고 보고 왕의 집을 스프링 컨테이너라
 6. 스프링은 엄청나게 많은 어노테이션을 가지고 있다(리플렉션, 컴파일체킹)
 
 </details>
+
+<details><summary style="color:skyblue">messageConverter가 무엇인가요?</summary>
+
+[🔭 자세한 설명](https://velog.io/@prettylee620/messageConverter%EA%B0%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+
+🪄 간단한 설명
+1. 스프링은 MessageConverter를 가지고 있다. 기본 값은 현재 json이다.
+
+🤔 **messageConverter란 뭔데?**
+
+자바 object를 JSON 형태로 개발자가 바꿀 필요 없이 바꿔주는 것을 MessageConverter이라고 한다.
+
+2. 스프링은 BufferedReader와 BufferedWriter를 쉽게 사용할 수 있다.
+어노테이션을 제공 @ResponseBady⇒ BufferedWrite가 동작, 데이터를 받을 때는 @RequestBody ⇒ BufferedReader
+
+3. 스프링은 계속 발전중이다. 
+
+
+</details>
+
+
 
 # 프로그래밍 언어
 ## JAVA
