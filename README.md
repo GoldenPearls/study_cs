@@ -1051,6 +1051,16 @@ ex. ‘+’ 연산자의 경우 숫자 클래스에서는 덧셈, 문자 클래�
 
 </details>
 
+<details><summary style="color:skyblue"> URI와 웹 브라우저의 요청 흐름</summary>
+
+[🔭 자세한 설명](https://velog.io/@prettylee620/HTTP-%EC%9B%B9-%EC%A7%80%EC%8B%9D-URI%EC%99%80-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%9D%98-%EC%9A%94%EC%B2%AD-%ED%9D%90%EB%A6%84)
+
+🪄 간단한 설명
+- `URI`는 자원을 식별하는 방법으로, `URL`은 자원의 위치를, `URN`은 이름을 나타냐고 생각해.
+- URL은 scheme, host, port, path, query, fragment 등으로 이뤄져 있어. 웹 브라우저가 서버에 요청할 때는 DNS 조회, HTTP 요청 생성, TCP/IP 연결 등이 순서대로 이루어져. 그리고 서버가 응답하면 데이터가 브라우저에 렌더링돼. URI는 자원을 유일하게 식별하는 데 쓰여.
+
+</details>
+
 
 
 
